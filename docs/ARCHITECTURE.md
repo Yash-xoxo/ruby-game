@@ -1,49 +1,3 @@
-# AI-Based Investment Advisor with Blockchain
-
-🚀 An intelligent financial advisor designed for middle-class families.  
-Provides **smart portfolio tracking, AI-driven recommendations**, and an **immutable blockchain-based audit trail** for trust & transparency.
-
----
-
-## ✨ Features
-- 📊 Portfolio tracking (stocks, crypto, mutual funds)
-- 🤖 AI-powered recommendations (risk-adjusted optimization, explainable advice)
-- 🔗 Blockchain audit trail (immutable logs of recommendations & trades)
-- 📱 Simple UI (web & mobile-friendly dashboard)
-- 🔒 Security-first (encrypted DB, optional non-custodial wallets)
-- 🧪 Backtesting & simulation before deploying strategies
-
----
-
-## 🏗️ Architecture
-- **Frontend**: React (dashboard + advisor chat)
-
-![](img/frontend.png)
-
-- **Backend**: FastAPI / Node.js (API orchestration)
-
-![](img/backend.png)
-
-- **AI Engine**: ML + RL models + LLM explanations
-
-![](img/aiengine.png)
-
-- **Blockchain**: Solidity smart contracts (audit ledger, optional rebalancer)
-
-![](img/bc.png)
-
-- **Database**: PostgreSQL (encrypted columns)
-- **Oracles**: Chainlink (price feeds)
-- **Infra**: Docker, Kubernetes, GitHub Actions
-
-![](img/db.png)
-
-See `docs/ARCHITECTURE.md` for a detailed diagram.
-
----
-
-## 📂 Project Structure
-
 # AI Investment Advisor - Project Structure
 
 | Path | Type | Description |
@@ -154,25 +108,3 @@ See `docs/ARCHITECTURE.md` for a detailed diagram.
 |     │   └── db-deployment.yaml | File | Database K8s deployment |
 |     **└── ci-cd/** | Directory | CI/CD configurations |
 |         └── github-actions.yml | File | GitHub Actions workflow |
-
-
-## ⚡ Setup
-1. Clone repo
-2. Setup `.env` (see `.env.example`)
-3. Install dependencies (backend & frontend)
-4. Run with `docker-compose up`
-
----
-
-## 🔮 Roadmap
-- [x] MVP: Off-chain portfolio tracker + AI suggestions
-- [ ] On-chain audit trail (Polygon smart contract)
-- [ ] Trade execution (brokers / DEX)
-- [ ] Advanced AI (RL-based dynamic strategies)
-- [ ] Mobile app
-
----
-
-
-
-
