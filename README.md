@@ -1,14 +1,55 @@
-Concept: Players must guess a randomly generated "code" (a sequence of numbers or letters) based on hints like "X numbers correct" or "X in the correct position" (similar to Mastermind).
+# AI-Based Investment Advisor with Blockchain
 
-Mechanics:
-Players have a limited number of tries.
-The code changes every time, making each round different.
-Offer varying difficulties with longer codes or more complex character sets.
+🚀 An intelligent financial advisor designed for middle-class families.  
+Provides **smart portfolio tracking, AI-driven recommendations**, and an **immutable blockchain-based audit trail** for trust & transparency.
 
-<h2>How the game works:</h2>
-A random 4-digit code is generated.
-The player enters their guess.
-The game checks the player's guess and provides two pieces of feedback:
-How many digits are correct but in the wrong position.
-How many digits are both correct and in the correct position.
-The game ends when the player guesses the code correctly or runs out of attempts.
+---
+
+## ✨ Features
+- 📊 Portfolio tracking (stocks, crypto, mutual funds)
+- 🤖 AI-powered recommendations (risk-adjusted optimization, explainable advice)
+- 🔗 Blockchain audit trail (immutable logs of recommendations & trades)
+- 📱 Simple UI (web & mobile-friendly dashboard)
+- 🔒 Security-first (encrypted DB, optional non-custodial wallets)
+- 🧪 Backtesting & simulation before deploying strategies
+
+---
+
+## 🏗️ Architecture
+- **Frontend**: React (dashboard + advisor chat)
+- **Backend**: FastAPI / Node.js (API orchestration)
+- **AI Engine**: ML + RL models + LLM explanations
+- **Blockchain**: Solidity smart contracts (audit ledger, optional rebalancer)
+- **Database**: PostgreSQL (encrypted columns)
+- **Oracles**: Chainlink (price feeds)
+- **Infra**: Docker, Kubernetes, GitHub Actions
+
+See `docs/ARCHITECTURE.md` for a detailed diagram.
+
+---
+
+## 📂 Project Structure
+(Overview of folders with short descriptions)
+
+---
+
+## ⚡ Setup
+1. Clone repo
+2. Setup `.env` (see `.env.example`)
+3. Install dependencies (backend & frontend)
+4. Run with `docker-compose up`
+
+---
+
+## 🔮 Roadmap
+- [x] MVP: Off-chain portfolio tracker + AI suggestions
+- [ ] On-chain audit trail (Polygon smart contract)
+- [ ] Trade execution (brokers / DEX)
+- [ ] Advanced AI (RL-based dynamic strategies)
+- [ ] Mobile app
+
+---
+
+## ⚠️ Disclaimer
+This project is for **educational purposes only**.  
+Not financial advice. Please consult a licensed advisor before making investments.
